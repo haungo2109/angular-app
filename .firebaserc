@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "social-network-64ff6": {
+      "hosting": {
+        "angular-app": [
+          "social-network-64ff6"
+        ]
+      }
+    }
+  }
+}
