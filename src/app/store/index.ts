@@ -1,3 +1,3 @@
-import { counterReducer } from './reducers/counter.reducer';
+import { userReducer } from './reducers/user.reducer';
 
-export default { count: counterReducer };
+export default { user: userReducer };

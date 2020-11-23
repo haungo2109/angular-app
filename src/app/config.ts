@@ -1,11 +1,14 @@
-export default class Config{
-    private static baseUrl = 'https://5fb1f0e787ed490016ea834e.mockapi.io/api/';
+export default class Config {
+  private static baseUrl = 'http://localhost:4000/api';
 
-    public static getBaseUrl(): string{
-        return this.baseUrl;
-    }
+  public static getBaseUrl(): string {
+    return this.baseUrl;
+  }
 
-    public static setBaseUrl(url: string = ''): void{
-        this.baseUrl = url;
-    }
+  public static setBaseUrl(url: string = ''): void {
+    this.baseUrl = url;
+  }
+  public static getUrl(path: string = '/'): string {
+    return this.baseUrl + path;
+  }
 }
