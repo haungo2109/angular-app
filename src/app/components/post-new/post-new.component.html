@@ -1,9 +1,13 @@
 <div class="card mb-5">
   <div class="card-header">
-    <img src="assets/avatars/avatar2.png" alt="Avatar" class="avatar float-left mr-3" />
+    <img
+      src="assets/avatars/avatar2.png"
+      alt="Avatar"
+      class="avatar float-left mr-3"
+    />
     <div class="float-left">
-        <h5 class="mb-0">Cras justo odio</h5>
-        <span class="font-italic card-subtitle text-muted">2 hours ago</span>
+      <h5 class="mb-0">Cras justo odio</h5>
+      <span class="font-italic card-subtitle text-muted">2 hours ago</span>
     </div>
   </div>
   <div class="card-body">
@@ -19,9 +23,20 @@
     alt="Card image cap"
   />
   <div class="d-flex justify-content-around m-2">
-    <button class="btn btn-outline-primary">
-        Like</button>
-    <button class="btn btn-outline-primary">Comment</button>
+    <button class="btn btn-outline-primary">Like</button>
+    <a
+      class="btn btn-primary"
+      data-toggle="collapse"
+      href="#collapseExample"
+      role="button"
+      aria-expanded="false"
+      aria-controls="collapseExample"
+    >
+      Comment
+    </a>
     <button class="btn btn-outline-primary">Share</button>
+  </div>
+  <div class="collapse" id="collapseExample">
+    <app-comment></app-comment>
   </div>
 </div>

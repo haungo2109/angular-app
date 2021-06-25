@@ -24,3 +24,18 @@ export interface Register {
 export interface HandleError {
   error: any;
 }
+
+export interface Post {
+  image: string | string[];
+  title: string;
+  content: string;
+  id: string;
+  time: string;
+  like: number;
+  id_comment: string;
+}
+
+export interface Comment {
+  id: string;
+  content: string;
+}

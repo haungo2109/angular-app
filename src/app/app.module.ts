@@ -14,6 +14,7 @@ import { PostNewComponent } from './components/post-new/post-new.component';
 import { PostListComponent } from './components/post-list/post-list.component';
 import { ListFriendComponent } from './components/list-friend/list-friend.component';
 import { CreatePostComponent } from './components/create-post/create-post.component';
+import { CommentComponent } from './components/comment/comment.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { CreatePostComponent } from './components/create-post/create-post.compon
     PostListComponent,
     ListFriendComponent,
     CreatePostComponent,
+    CommentComponent,
   ],
   imports: [
     ReactiveFormsModule,
